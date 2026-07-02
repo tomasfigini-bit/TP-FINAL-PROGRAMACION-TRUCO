@@ -18,7 +18,7 @@ class PartidaTruco:
         
         for palo in palos:
             for numero in numeros:
-                ruta = f"assets/cartas/{numero}_{palo}.png"
+                ruta = f"assets/cartas/{numero} de {palo}.jpg"
                 nueva_carta = Carta(numero, palo, ruta)
                 cartas_temporales.append(nueva_carta)
         
